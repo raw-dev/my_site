@@ -36,12 +36,12 @@ const NavBar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
-                    className="block h-8 w-auto lg:hidden"
+                    className="block h-20 w-auto lg:hidden"
                     src={logo}
                     alt="Logo"
                   />
                   <Image
-                    className="hidden h-20 w-auto lg:block"
+                    className="hidden h-20 mt-2 mb-2 w-auto lg:block"
                     src={logo}
                     alt="Logo"
                   />
