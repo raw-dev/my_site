@@ -21,7 +21,7 @@ const NavBar = () => {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-18 items-end justify-between">
+            <div className="relative flex h-24 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -36,12 +36,12 @@ const NavBar = () => {
               <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
-                    className="block h-20 w-auto lg:hidden"
+                    className="hidden h-20 w-auto lg:hidden"
                     src={logo}
                     alt="Logo"
                   />
                   <Image
-                    className="hidden h-20 mt-2 mb-2 w-auto lg:block"
+                    className="hidden h-20 w-auto sm:block md:block lg:block"
                     src={logo}
                     alt="Logo"
                   />
