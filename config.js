@@ -2,7 +2,7 @@
 export const TITLE = "Next & Tailwind | Starter Template";
 
 // The favicon
-export const ICON = "static/favicon.ico";
+export const ICON = "static/logo.svg";
 
 // The URL of the deployed page (used in meta tags for SMO)
 // Example: https://www.domain.com/
